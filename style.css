@@ -1,0 +1,56 @@
+body{
+    background-color: darkgrey;
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+
+main{
+    flex-grow: 1;
+}
+
+h1, h2, h3, h4{
+    margin: 0;
+    padding: 0;
+}
+
+.banner-image{
+    background-color: rgba(0, 0, 0, 0.3);
+    background-image: url(./assets/green-tractor.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner{
+    padding: 10rem;
+}
+
+.picture-box{
+    max-width: 540px;
+    max-height: 360px;
+}
+
+
+
+
+
+
+
+
+
+
+/*NOTE fix this h1{
+    text-align: center;
+    box-shadow: 5px 10px black;
+} */
+
+@media only screen and (min-width: 1500px) {
+
+    body{
+        margin-left: 16.5rem;
+        margin-right: 16.5rem;
+    }
+
+}
